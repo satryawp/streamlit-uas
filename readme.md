@@ -238,8 +238,35 @@ plt.xticks(rotation=45)
 plt.yticks(rotation=0)
 plt.show()
 ```
-![image](visual2.png
+![image](visual2.png)
 
+``` python
+bk_network = bk_rules[['antecedents', 'consequents']]
+
+bk_network_G = nx.from_pandas_edgelist(
+    bk_network,
+    source = 'antecedents',
+    target = 'consequents',
+    create_using = nx.DiGraph())
+
+network_bt = nx.in_degree_centrality(bk_network_G)
+bk_network_bt = pd.DataFrame(list(network_bt.items()), columns = ['item', 'centrality'])
+bk_network_bt = bk_network_bt.dropna(axis=0)
+
+pos = nx.kamada_kawai_layout(bk_network_G)
+
+sizes = [x[1]*100 for x in bk_network_G.degree()]
+
+nx.draw_networkx(bk_network_G, pos,
+    with_labels = True,
+    node_size = sizes,
+    width = 0.1, alpha = 0.7,
+    arrowsize = 2, linewidths = 0)
+
+plt.axis('off')
+plt.show()
+```
+![image](visual3.png)
 ## Deployment
 ![image](app.png)
 
