@@ -7,7 +7,7 @@
 ### Kelas : Pagi B
 
 ## Domain Proyek
-Grocery Store atau toko kelontong adalah toko ritel jasa makanan yang terutama menjual berbagai macam produk makanan, yang mungkin segar atau dikemas. Namun, dalam penggunaan sehari-hari di AS, "toko kelontong" adalah sinonim untuk supermarket, dan tidak digunakan untuk merujuk pada jenis toko lain yang menjual bahan makanan. Di Inggris, toko-toko yang menjual makanan dibedakan menjadi grocers atau grocery shops (walaupun dalam penggunaan sehari-hari, orang biasanya menggunakan istilah "supermarket" atau "corner store"[4] atau "toko serba ada").
+Toko makanan atau swalayan adalah bisnis ritel yang khusus menawarkan berbagai produk makanan, termasuk produk segar dan kemasan. Meskipun, dalam konteks sehari-hari di Amerika Serikat, istilah "swalayan" sering digunakan sebagai sinonim untuk supermarket dan tidak mengacu pada jenis toko lain yang menjual bahan makanan. Di Inggris, tempat-tempat yang menjual makanan dapat dibedakan sebagai pedagang makanan atau toko bahan makanan (meskipun dalam penggunaan sehari-hari, orang cenderung menggunakan istilah "supermarket" atau "toko pojok" atau "toko serba ada")..
 
 ## Business Understanding
 
