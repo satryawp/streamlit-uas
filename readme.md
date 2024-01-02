@@ -118,7 +118,7 @@ plt.xlabel('Item types')
 plt.ylabel('Purchase count')
 plt.title('Top 10 most purchased item types')
 ```
-![image](eda.png)
+![image](eda1.png)
 
 menampilkan top 10 pembelian barang pada tahun 2014
 ``` python
